@@ -1,0 +1,1 @@
+<block wx:if="{{nowPlayingList.length!==0}}"><view class="content data-v-57280228"><image class="my-image data-v-57280228" src="{{nowPlayingList[0].images.medium}}" mode="aspectFit"></image><button type="primary" data-event-opts="{{[['tap',[['toFirst',['$event']]]]]}}" bindtap="__e" class="data-v-57280228">立即体验</button></view></block>
